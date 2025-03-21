@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1976d2" />
+    <meta
+      name="description"
+      content="PartnerPayz - A platform that integrates relationship building and financial planning for young couples"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>PartnerPayz - Build Your Future Together</title>
+    <style>
+      :root {
+        --color-primary: #1976d2;
+        --color-secondary: #4caf50;
+        --color-accent: #e91e63;
+        --color-background: #f8f9fa;
+        --color-text: #333333;
+        --color-light: #ffffff;
+        --color-dark: #212121;
+        --container-width: 1200px;
+        --border-radius: 8px;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+        color: var(--color-text);
+        background-color: var(--color-background);
+      }
+      
+      .container {
+        width: 100%;
+        max-width: var(--container-width);
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      .header {
+        background-color: var(--color-light);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 15px 0;
+      }
+      
+      .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .logo {
+        color: var(--color-primary);
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      
+      .hero {
+        padding: 80px 0;
+        text-align: center;
+        background: linear-gradient(135deg, rgba(25, 118, 210, 0.1) 0%, rgba(76, 175, 80, 0.1) 100%);
+      }
+      
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: var(--color-primary);
+      }
+      
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto 30px;
+      }
+      
+      .btn {
+        display: inline-block;
+        padding: 12px 25px;
+        border-radius: var(--border-radius);
+        text-decoration: none;
+        font-weight: 600;
+        margin: 10px;
+      }
+      
+      .btn-primary {
+        background-color: var(--color-primary);
+        color: var(--color-light);
+      }
+      
+      .btn-secondary {
+        background-color: var(--color-secondary);
+        color: var(--color-light);
+      }
+      
+      .notice {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: var(--color-light);
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .footer {
+        margin-top: 50px;
+        background-color: var(--color-dark);
+        color: var(--color-light);
+        padding: 20px 0;
+        text-align: center;
+      }
+    </style>
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">PartnerPayz</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to PartnerPayz</h1>
+        <p>Build Your Future Together - The ultimate platform for young couples seeking meaningful relationships and financial success.</p>
+        
+        <div class="notice">
+          <h2>Site Under Development</h2>
+          <p>Our full React application is currently being set up. Check back soon for the complete experience!</p>
+          <p>In the meantime, you can visit our <a href="https://github.com/manirul143452/PartnerPayzs" style="color: var(--color-primary);">GitHub repository</a> to see our progress.</p>
+        </div>
+        
+        <div style="margin-top: 30px;">
+          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="#" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2023 PartnerPayz. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html> 

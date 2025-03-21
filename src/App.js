@@ -8,6 +8,14 @@ import GoalSetting from './components/FinancialPlanning/GoalSetting';
 import DatePlanner from './components/RelationshipBuilding/DatePlanner';
 import PricingPlans from './components/Subscription/PricingPlans';
 
+// GitHub Pages Fix - get the basename from package.json homepage
+const getBasename = () => {
+  const { homepage } = require('../package.json');
+  if (!homepage) return '/';
+  // Get the last part of the URL
+  return new URL(homepage).pathname;
+};
+
 // Navbar component
 const Navbar = () => {
   return (
@@ -31,7 +39,7 @@ const Navbar = () => {
 // Simple HomePage component
 const App = () => {
   return (
-    <Router>
+    <Router basename={getBasename()}>
       <div className="app">
         <Navbar />
         <main className="main-content">
