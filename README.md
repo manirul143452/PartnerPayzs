@@ -1,87 +1,59 @@
 # PartnerPayz
 
-PartnerPayz is a platform designed to help young couples build meaningful relationships and plan their financial future together.
+A platform that integrates relationship building and financial planning for young couples (18-35 years).
+
+## Project Overview
+
+- **Website Name**: PartnerPayz
+- **Purpose**: Integrate relationship building and financial planning on a single platform for young couples.
+- **Target Audience**: Tech-savvy couples (18-35 years) seeking to build meaningful relationships and achieve financial goals together.
 
 ## Features
 
-- **Partner Finding**: Find compatible partners with shared financial goals and values
-- **Financial Planning**: Set and track financial goals together with your partner
-- **Relationship Building**: Plan dates and activities that strengthen your bond
-- **Community Support**: Connect with other couples on similar journeys
+### Current Features
+- Basic website structure
+- Responsive design for mobile and desktop
+- Welcome page
 
-## Getting Started
+### Planned Features
+- **Partner Finding**: Matching algorithm, profile verification
+- **Financial Planning**: Goal setting, investment tracking
+- **Relationship Building**: Date planner, milestone reminders
+- **Community**: Forum section for couples to interact
+- **Dashboard**: User overview with relationship and financial metrics
 
-### Prerequisites
+## Tech Stack
 
-- Node.js (v14.0.0 or later)
-- npm (v6.0.0 or later)
+### Frontend
+- HTML, CSS, JavaScript
+- Future implementation: React.js
 
-### Installation
+### Backend (Planned)
+- Node.js
+- MongoDB
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/partnerpayzs.git
-   cd partnerpayzs
-   ```
+### Hosting
+- Currently: GitHub Pages
+- Future plans: Netlify or Heroku
 
-2. Install dependencies
-   ```bash
-   npm install
-   ```
+## Setup Instructions
 
-3. Start the development server
-   ```bash
-   npm start
-   ```
-
-The application will be available at `http://localhost:3000`.
-
-## Project Structure
-
+1. Clone the repository:
 ```
-partnerpayzs/
-├── public/                # Static files
-│   ├── index.html         # HTML entry point
-│   ├── manifest.json      # Web app manifest
-│   └── ...
-├── src/                   # Source code
-│   ├── components/        # React components
-│   │   ├── Dashboard/     # Dashboard related components
-│   │   ├── PartnerFinding/# Partner matching components
-│   │   ├── FinancialPlanning/ # Financial tools components
-│   │   ├── RelationshipBuilding/ # Relationship tools
-│   │   ├── Subscription/  # Pricing and subscription components
-│   │   ├── Layout/        # Layout components (Navbar, Footer)
-│   │   └── ...
-│   ├── styles/            # CSS files
-│   │   └── main.css       # Main stylesheet
-│   ├── App.jsx            # Main application component
-│   └── index.jsx          # Application entry point
-└── package.json           # Project dependencies and scripts
+git clone https://github.com/username/PartnerPayz.github.io.git
 ```
 
-## Available Scripts
+2. Navigate to the project directory:
+```
+cd PartnerPayz.github.io
+```
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App
-
-## Technology Stack
-
-- **Frontend**: React, React Router
-- **Styling**: CSS with variables for theming
-- **Charts**: Chart.js with react-chartjs-2
+3. Open index.html in your browser to view the site locally.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Thanks to all contributors who have helped shape PartnerPayz
-- Special thanks to our early adopters for valuable feedback 
+This project is open source and available under the [MIT License](LICENSE). 
